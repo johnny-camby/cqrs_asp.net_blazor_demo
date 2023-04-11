@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.CQRS.Customers.Commands
 {
-    public class CustomerCommand : IRequest<CustomerCommandResponse>
+    public class CustomerCommandRequest : IRequest<CustomerCommandResponse>
     {
         public string CustId { get; set; } = string.Empty;
     }

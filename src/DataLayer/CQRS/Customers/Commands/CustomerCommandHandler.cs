@@ -9,7 +9,7 @@ using DataLayer.Entities;
 
 namespace DataLayer.CQRS.Customers.Commands
 {
-    public class CustomerCommandHandler : IRequestHandler<CustomerCommand, CustomerCommandResponse>
+    public class CustomerCommandHandler : IRequestHandler<CustomerCommandRequest, CustomerCommandResponse>
     {
         private readonly IDataRepository<Customer> _customerRepository;
 
@@ -18,7 +18,7 @@ namespace DataLayer.CQRS.Customers.Commands
             _customerRepository = customerRepository;
         }
 
-        public async Task<CustomerCommandResponse> Handle(CustomerCommand request, CancellationToken cancellationToken)
+        public async Task<CustomerCommandResponse> Handle(CustomerCommandRequest request, CancellationToken cancellationToken)
         {
             var customerCommandResponse = new CustomerCommandResponse();
 
