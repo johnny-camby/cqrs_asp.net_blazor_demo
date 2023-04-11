@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "prSVcpBw+Y+fjiNZNXZDp6Pn6hxred0pEel5ESSvJ+pZztGtpKqx8IbF4feUk9W7tAD0WlsWsW9EIxVIO0Cjwg==",
+  "success": true,
+  "projectFilePath": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

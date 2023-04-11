@@ -1,0 +1,5 @@
+D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
