@@ -1,38 +1,47 @@
 ﻿using DataLayer.Entities;
 using DataLayer.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataLayer.Repositories
 {
     public class CustomerRepository : IDataRepository<Customer>
     {
-        public Task<Customer> AddAsync(Customer entity)
+        private readonly MainDbContext _mainDbContext;
+        private readonly IDataRepository<FullAddress> _fullAddressRepository;
+        public CustomerRepository(MainDbContext mainDbContext, IDataRepository<FullAddress> fullAddressRepository)
         {
-            throw new NotImplementedException();
+            _mainDbContext = mainDbContext;
+            _fullAddressRepository = fullAddressRepository;
         }
 
-        public Task DeleteAsync(Customer entity)
+        public async Task<Customer> AddAsync(Customer entity)
         {
-            throw new NotImplementedException();
+            await _mainDbContext.AddAsync(entity);
+            await _mainDbContext.SaveChangesAsync();
+            return entity;
         }
 
-        public Task<Customer?> GetByIdAsync(Guid id)
+        public async Task DeleteAsync(Customer entity)
         {
-            throw new NotImplementedException();
+            _mainDbContext.Remove(entity);
+            await _mainDbContext.SaveChangesAsync();
         }
 
-        public Task<IReadOnlyList<Customer>> ListAllAsync()
+        public async Task<Customer?> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return await _mainDbContext.Customers.FindAsync(id);
         }
 
-        public Task UpdateAsync(Customer entity)
+        public async Task<IReadOnlyList<Customer>> ListAllAsync()
         {
-            throw new NotImplementedException();
+            return await _mainDbContext.Customers.Include("FullAddress").ToListAsync();
+        }
+
+        public async Task UpdateAsync(Customer entity)
+        {
+            await _fullAddressRepository.AddAsync(entity.FullAddress);
+            _mainDbContext.Entry(entity).State = EntityState.Modified;
+            await _mainDbContext.SaveChangesAsync();
         }
     }
 }
