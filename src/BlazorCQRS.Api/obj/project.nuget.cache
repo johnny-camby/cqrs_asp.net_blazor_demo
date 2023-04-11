@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C/2mNchpEGQRoXKgEj9jLG+0mrRuOX7xWOOeb2PeJk5Ru6jWxXlYDLHSKPiFsF13cJMrIPP63865SPzG8TG/Zg==",
+  "dgSpecHash": "ZHdNJ2oPe0OliUT8kiljtcaMs/JIj10ku0rmN1iWGyfCRZMPoartilnLFlSQOzOwCtU4LCIu3HJX9rIRF/WOdg==",
   "success": true,
-  "projectFilePath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj",
+  "projectFilePath": "D:\\dev\\cqrs_blazor\\src\\BlazorCQRS.Api\\BlazorCQRS.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xplic\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\xplic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

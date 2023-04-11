@@ -809,6 +809,23 @@
             "rid": "win"
           }
         }
+      },
+      "DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "MediatR": "12.0.1",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataLayer.dll": {}
+        }
       }
     }
   },
@@ -2047,15 +2064,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataLayer/DataLayer.csproj",
+      "msbuildProject": "../DataLayer/DataLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AutoMapper >= 12.0.1",
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "MediatR >= 12.0.1",
-      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.16"
+      "DataLayer >= 1.0.0",
+      "MediatR >= 12.0.1"
     ]
   },
   "packageFolders": {
@@ -2065,11 +2084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj",
-      "projectName": "DataLayer",
-      "projectPath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj",
+      "projectUniqueName": "D:\\dev\\cqrs_blazor\\src\\BlazorCQRS.Api\\BlazorCQRS.Api.csproj",
+      "projectName": "BlazorCQRS.Api",
+      "projectPath": "D:\\dev\\cqrs_blazor\\src\\BlazorCQRS.Api\\BlazorCQRS.Api.csproj",
       "packagesPath": "C:\\Users\\xplic\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\obj\\",
+      "outputPath": "D:\\dev\\cqrs_blazor\\src\\BlazorCQRS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2090,7 +2109,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2103,25 +2126,9 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "AutoMapper": {
-            "target": "Package",
-            "version": "[12.0.1, )"
-          },
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[12.0.1, )"
-          },
           "MediatR": {
             "target": "Package",
             "version": "[12.0.1, )"
-          },
-          "MediatR.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[11.0.0, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[6.0.16, )"
           }
         },
         "imports": [
@@ -2136,6 +2143,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
