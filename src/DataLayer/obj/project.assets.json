@@ -32,6 +32,19 @@
           }
         }
       },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "11.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
@@ -81,6 +94,19 @@
         "mediatr.contracts.nuspec"
       ]
     },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "sha512": "jfD2NBYvP+HiUil2DWfM4bn+bCLp4H2xvoc9aorcnn2Jpgz7Ey8RyYMpgqeF3bs6CP6t8pzb6WkF5NFF/1RLHA==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
       "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
       "type": "package",
@@ -109,32 +135,30 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MediatR >= 12.0.1"
+      "MediatR >= 12.0.1",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\xplic\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj",
+      "projectUniqueName": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
-      "projectPath": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj",
-      "packagesPath": "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\",
-      "outputPath": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\obj\\",
+      "projectPath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj",
+      "packagesPath": "C:\\Users\\xplic\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Johnny-Kikambi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\xplic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -163,6 +187,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[12.0.1, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
           }
         },
         "imports": [
