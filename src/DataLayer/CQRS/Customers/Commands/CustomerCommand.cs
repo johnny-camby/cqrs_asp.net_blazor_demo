@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.CQRS.Commands.Customers
+namespace DataLayer.CQRS.Customers.Commands
 {
     public class CustomerCommand : IRequest<CustomerCommandResponse>
     {

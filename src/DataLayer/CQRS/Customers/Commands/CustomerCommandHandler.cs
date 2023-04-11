@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataLayer.Entities;
 
-namespace DataLayer.CQRS.Commands.Customers
+namespace DataLayer.CQRS.Customers.Commands
 {
     public class CustomerCommandHandler : IRequestHandler<CustomerCommand, CustomerCommandResponse>
     {

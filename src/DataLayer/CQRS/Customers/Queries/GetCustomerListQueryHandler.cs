@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.CQRS.Queries
+namespace DataLayer.CQRS.Customers.Queries
 {
     public class GetCustomerListQueryHandler : IRequestHandler<GetCustomerListQuery, List<CustomerListVm>>
     {
