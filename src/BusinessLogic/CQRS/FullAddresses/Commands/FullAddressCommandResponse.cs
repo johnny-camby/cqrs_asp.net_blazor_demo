@@ -1,4 +1,5 @@
-﻿using BusinessLogic.CQRS.Responses;
+﻿using BusinessLogic.CQRS.FullAddresses.Dtos;
+using BusinessLogic.Responses;
 using DataLayer.Entities;
 
 namespace BusinessLogic.CQRS.FullAddresses.Commands
@@ -6,6 +7,6 @@ namespace BusinessLogic.CQRS.FullAddresses.Commands
     public class FullAddressCommandResponse : BaseResponse
     {
         public FullAddressCommandResponse() : base() { }
-        public FullAddress FullAddress { get; set; } = default!;
+        public FullAddressDto FullAddress { get; set; } = default!;
     }
 }

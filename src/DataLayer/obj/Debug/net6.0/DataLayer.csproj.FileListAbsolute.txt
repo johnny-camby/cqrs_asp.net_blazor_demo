@@ -1,12 +1,14 @@
+D:\dev\blazor_cqrs\src\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+D:\dev\blazor_cqrs\src\DataLayer\bin\Debug\net6.0\DataLayer.runtimeconfig.json
+D:\dev\blazor_cqrs\src\DataLayer\bin\Debug\net6.0\DataLayer.dll
+D:\dev\blazor_cqrs\src\DataLayer\bin\Debug\net6.0\DataLayer.pdb
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
-D:\dev\blazor_cqrs\src\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
-D:\dev\blazor_cqrs\src\DataLayer\bin\Debug\net6.0\DataLayer.dll
-D:\dev\blazor_cqrs\src\DataLayer\bin\Debug\net6.0\DataLayer.pdb
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.dll
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\DataLayer.genruntimeconfig.cache
 D:\dev\blazor_cqrs\src\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll

@@ -3,12 +3,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataLayer
 {
-    public class MainDbContext : DbContext
+    public class CqrsDbContext : DbContext
     {
         public DbSet<Customer> Customers { get; set; }
         public DbSet<FullAddress> FullAddresses { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<ShipInfo> ShipInfo { get; set; }
 
-        public MainDbContext(DbContextOptions<MainDbContext> options) : base(options) { }
+        public CqrsDbContext(DbContextOptions<CqrsDbContext> options) : base(options) 
+        {}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

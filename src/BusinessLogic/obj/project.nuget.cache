@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ExZvoZEMhd6fuunq/ef6hS8JE2m9KlK1cADxjqOpzHzoPHN8F52TSDH7S2O3xtYkagQsgdAgcxKCZKLEn2NUXQ==",
+  "dgSpecHash": "rFm2TqAjmrNnmgvU2Pjo0fuXqDz47bBasN3mgTojKP/82voBaBsAFsT7TP5NLDmOAFem/w+e0FYOrSsGfh69Fg==",
   "success": true,
   "projectFilePath": "D:\\dev\\blazor_cqrs\\src\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
-    "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
-    "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

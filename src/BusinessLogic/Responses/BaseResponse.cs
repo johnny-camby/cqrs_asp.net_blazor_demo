@@ -1,5 +1,4 @@
-﻿
-namespace BusinessLogic.CQRS.Responses
+﻿namespace BusinessLogic.Responses
 {
     public class BaseResponse
     {

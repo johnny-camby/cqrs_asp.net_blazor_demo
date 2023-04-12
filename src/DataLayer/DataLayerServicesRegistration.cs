@@ -11,7 +11,8 @@ namespace DataLayer
     {        
         public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration) 
         {
-            services.AddDbContext<MainDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("MainDbConnStr"))
+            services.AddDbContext<CqrsDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("CustomerOrderDbConn"),
+                m => m.MigrationsAssembly("DataLayer"))
             .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
 
             services.AddScoped<IDataRepository<Customer>, CustomerRepository>();
