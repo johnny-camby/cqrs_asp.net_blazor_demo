@@ -810,6 +810,23 @@
           }
         }
       },
+      "BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "DataLayer": "1.0.0",
+          "MediatR": "12.0.1",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2065,6 +2082,11 @@
         "version.txt"
       ]
     },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic/BusinessLogic.csproj",
+      "msbuildProject": "../BusinessLogic/BusinessLogic.csproj"
+    },
     "DataLayer/1.0.0": {
       "type": "project",
       "path": "../DataLayer/DataLayer.csproj",
@@ -2073,7 +2095,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DataLayer >= 1.0.0",
+      "BusinessLogic >= 1.0.0",
       "MediatR >= 12.0.1"
     ]
   },
@@ -2113,8 +2135,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj"
+            "D:\\dev\\blazor_cqrs\\src\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "D:\\dev\\blazor_cqrs\\src\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }

@@ -66,3 +66,5 @@ D:\dev\blazor_cqrs\src\BlazorCQRS.Api\obj\Debug\net6.0\refint\BlazorCQRS.Api.dll
 D:\dev\blazor_cqrs\src\BlazorCQRS.Api\obj\Debug\net6.0\BlazorCQRS.Api.pdb
 D:\dev\blazor_cqrs\src\BlazorCQRS.Api\obj\Debug\net6.0\BlazorCQRS.Api.genruntimeconfig.cache
 D:\dev\blazor_cqrs\src\BlazorCQRS.Api\obj\Debug\net6.0\ref\BlazorCQRS.Api.dll
+D:\dev\blazor_cqrs\src\BlazorCQRS.Api\bin\Debug\net6.0\BusinessLogic.dll
+D:\dev\blazor_cqrs\src\BlazorCQRS.Api\bin\Debug\net6.0\BusinessLogic.pdb

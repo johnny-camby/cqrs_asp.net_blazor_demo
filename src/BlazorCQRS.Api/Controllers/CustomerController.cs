@@ -1,4 +1,4 @@
-﻿using DataLayer.CQRS.Customers.Queries;
+﻿using BusinessLogic.CQRS.Customers.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

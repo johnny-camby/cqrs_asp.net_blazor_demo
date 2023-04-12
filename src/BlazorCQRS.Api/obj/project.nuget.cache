@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bTPRWzeH8Rb6VhCVHrSbdUuB4uuIIRMSiCRFTxdLaE/FmY+VF6B/8cBid4NsPL48nF9XL1suEaHYpy1uGqjs/w==",
+  "dgSpecHash": "B5udsNMkZ9v9R/PlAUnYapTuDHZ480rUYAaZqX6zFcM6X3Z4MqkWzTLT2pE08WmxVag6kV6DDwzqBvp3tvPNrQ==",
   "success": true,
   "projectFilePath": "D:\\dev\\blazor_cqrs\\src\\BlazorCQRS.Api\\BlazorCQRS.Api.csproj",
   "expectedPackageFiles": [

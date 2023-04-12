@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "BlazorCQRS.Api/1.0.0": {
         "dependencies": {
-          "DataLayer": "1.0.0",
+          "BusinessLogic": "1.0.0",
           "MediatR": "12.0.1"
         },
         "runtime": {
@@ -474,6 +474,18 @@
           }
         }
       },
+      "BusinessLogic/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "DataLayer": "1.0.0",
+          "MediatR": "12.0.1",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0"
+        },
+        "runtime": {
+          "BusinessLogic.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
@@ -808,6 +820,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DataLayer/1.0.0": {
       "type": "project",
