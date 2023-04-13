@@ -6,9 +6,9 @@ namespace DataLayer.Repositories
 {
     public class CustomerRepository : IDataRepository<Customer>
     {
-        private readonly MainDbContext _mainDbContext;
+        private readonly CqrsDbContext _mainDbContext;
         private readonly IDataRepository<FullAddress> _fullAddressRepository;
-        public CustomerRepository(MainDbContext mainDbContext, IDataRepository<FullAddress> fullAddressRepository)
+        public CustomerRepository(CqrsDbContext mainDbContext, IDataRepository<FullAddress> fullAddressRepository)
         {
             _mainDbContext = mainDbContext;
             _fullAddressRepository = fullAddressRepository;

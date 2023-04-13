@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2qflcfTLqmsTqZIDnqVHVuIc3YiKjHThBBhsj+LGK+k=",
+  "Source": "BlazorCQRS.Api",
+  "BasePath": "_content/BlazorCQRS.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
