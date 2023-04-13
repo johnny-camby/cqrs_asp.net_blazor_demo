@@ -17,6 +17,8 @@ namespace DataLayer
 
             services.AddScoped<IDataRepository<Customer>, CustomerRepository>();
             services.AddScoped<IDataRepository<FullAddress>, FullAddressRepository>();
+            services.AddScoped<IDataRepository<Order>,OrderRepository>();
+            services.AddScoped<IDataRepository<ShipInfo>, ShipInfoRepository>();
 
             return services;
         }
