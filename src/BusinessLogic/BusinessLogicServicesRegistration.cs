@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using XmlDataExtractManager.Interfaces;
+using XmlDataExtractManager.Services;
 
 namespace BusinessLogic
 {
@@ -9,6 +11,8 @@ namespace BusinessLogic
         {
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddScoped<IBufferedFileUploadService, BufferedFileUploadService>();
+            services.AddScoped<IXmlDataExtractorService, XmlDataExtractorService>();
 
             return services;
         }

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\blazor_cqrs\\src\\XmlDataExtractManager\\XmlDataExtractManager.csproj": {}
+    "D:\\dev\\cqrs_blazor\\src\\XmlDataExtractManager\\XmlDataExtractManager.csproj": {}
   },
   "projects": {
-    "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj": {
+    "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\obj\\",
+        "projectPath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\xplic\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Johnny-Kikambi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xplic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -86,24 +84,22 @@
         }
       }
     },
-    "D:\\dev\\blazor_cqrs\\src\\XmlDataExtractManager\\XmlDataExtractManager.csproj": {
+    "D:\\dev\\cqrs_blazor\\src\\XmlDataExtractManager\\XmlDataExtractManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\blazor_cqrs\\src\\XmlDataExtractManager\\XmlDataExtractManager.csproj",
+        "projectUniqueName": "D:\\dev\\cqrs_blazor\\src\\XmlDataExtractManager\\XmlDataExtractManager.csproj",
         "projectName": "XmlDataExtractManager",
-        "projectPath": "D:\\dev\\blazor_cqrs\\src\\XmlDataExtractManager\\XmlDataExtractManager.csproj",
-        "packagesPath": "C:\\Users\\Johnny-Kikambi\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\blazor_cqrs\\src\\XmlDataExtractManager\\obj\\",
+        "projectPath": "D:\\dev\\cqrs_blazor\\src\\XmlDataExtractManager\\XmlDataExtractManager.csproj",
+        "packagesPath": "C:\\Users\\xplic\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\cqrs_blazor\\src\\XmlDataExtractManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Johnny-Kikambi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xplic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -117,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "D:\\dev\\blazor_cqrs\\src\\DataLayer\\DataLayer.csproj"
+              "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "D:\\dev\\cqrs_blazor\\src\\DataLayer\\DataLayer.csproj"
               }
             }
           }
